@@ -2,7 +2,8 @@
 // or project specific include files that are used frequently, but
 // are changed infrequently
 //
-
+#ifndef STDAFX_H
+#define STDAFX_H
 #pragma once
 
 #include "targetver.h"
@@ -12,10 +13,10 @@
 #include <iostream>
 #include <fstream>
 
+// TODO: reference additional headers your program requires here
 #include <string>
 #include <vector>
 
 #include "Data.h"
 
-
-// TODO: reference additional headers your program requires here
+#endif // !STDAFX_H
